@@ -5,7 +5,7 @@
 VS Code Harpoon is inspired by The Primeagen's [Harpoon](https://github.com/ThePrimeagen/harpoon)
 plugin for neovim. It supports the basic use case of file navigation just like with Harpoon.
 
-![GitHub](https://img.shields.io/github/workflow/status/tobias-z/vscode-harpoon/validate/main)
+![GitHub](https://img.shields.io/github/workflow/status/kwaszczuk/vscode-harpoon/validate/main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 </div>
@@ -126,10 +126,10 @@ Any feedback is very appreciated!
 
 Please file an issue for bugs, missing documentation, unexpected behaviour etc.
 
-[**Create bug report**](https://github.com/tobias-z/vscode-harpoon/issues/new?assignees=&labels=&template=bug_report.md&title=)
+[**Create bug report**](https://github.com/kwaszczuk/vscode-harpoon/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
 ### 🕯 Feature Requests
 
 Please file an issue to suggest new features. Vote on feature requests by adding a 👍.
 
-[**Create Feature Requests**](https://github.com/tobias-z/vscode-harpoon/issues/new?assignees=&labels=&template=feature_request.md&title=)
+[**Create Feature Requests**](https://github.com/kwaszczuk/vscode-harpoon/issues/new?assignees=&labels=&template=feature_request.md&title=)

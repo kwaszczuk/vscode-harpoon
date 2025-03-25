@@ -1,17 +1,17 @@
 {
-    "publisher": "tobias-z",
-    "name": "vscode-harpoon",
-    "displayName": "VSCode Harpoon",
+    "publisher": "kwaszczuk",
+    "name": "vscode-harpoon-kwaszczuk",
+    "displayName": "VSCode Harpoon (by kwaszczuk)",
     "description": "A vscode clone of the vim plugin Harpoon created by The Primeagen",
     "version": "1.6.0",
     "license": "MIT",
-    "homepage": "https://github.com/tobias-z/vscode-harpoon/blob/main/README.md",
+    "homepage": "https://github.com/kwaszczuk/vscode-harpoon/blob/main/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tobias-z/vscode-harpoon.git"
+        "url": "https://github.com/kwaszczuk/vscode-harpoon.git"
     },
     "bugs": {
-        "url": "https://github.com/tobias-z/vscode-harpoon/issues"
+        "url": "https://github.com/kwaszczuk/vscode-harpoon/issues"
     },
     "engines": {
         "vscode": "^1.65.0"
@@ -24,6 +24,9 @@
         "Other"
     ],
     "main": "./dist/harpoon.js",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
     "contributes": {
         "commands": [
             {
@@ -261,5 +264,6 @@
             "yarn pretest",
             "yarn test"
         ]
-    }
+    },
+    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

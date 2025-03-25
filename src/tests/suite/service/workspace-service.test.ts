@@ -13,7 +13,7 @@ suite("workspace service", () => {
         activeProjectService = new ActiveProjectService([]);
         workspaceService = new WorkspaceService(
             activeProjectService,
-            await vscode.extensions.getExtension("tobias-z.vscode-harpoon")!.activate(),
+            await vscode.extensions.getExtension("kwaszczuk.vscode-harpoon")!.activate(),
             "workspaceState"
         );
     });

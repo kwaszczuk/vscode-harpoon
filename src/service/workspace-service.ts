@@ -70,7 +70,7 @@ export default class WorkspaceService {
             const doc = await vscode.workspace.openTextDocument(uri);
             return await vscode.window.showTextDocument(doc);
         } catch {
-            // Fix to allow changing to files inside a 'Live Share' session (https://github.com/tobias-z/vscode-harpoon/issues/25)
+            // Fix to allow changing to files inside a 'Live Share' session (https://github.com/kwaszczuk/vscode-harpoon/issues/25)
             const doc = vscode.workspace.textDocuments.find(
                 doc => doc.fileName.trim() === editor.fileName.trim()
             );
